@@ -113,7 +113,7 @@
   window._cf_translation = {};
   function cookie_enabled(){document.cookie="detecter=1";let cookiesEnabled = document.cookie.indexOf("detecter=") !== -1;document.cookie = "detecter=1; expires=Thu, 01 Jan 1970 00:00:00 GMT";return cookiesEnabled;}
   let cookieAlert = document.getElementById('cookie-alert');
-  if (checkCookiesEnabled()) {
+  if (cookie_enabled()) {
       cookieAlert.hidden=True;
   } else {
       cookieAlert.textContent = "Please enable cookies.";
