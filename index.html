@@ -114,7 +114,7 @@
   function cookie_enabled(){document.cookie="detecter=1";let cookiesEnabled = document.cookie.indexOf("detecter=") !== -1;document.cookie = "detecter=1; expires=Thu, 01 Jan 1970 00:00:00 GMT";return cookiesEnabled;}
   let cookieAlert = document.getElementById('cookie-alert');
   if (cookie_enabled()) {
-      cookieAlert.hidden=True;
+      cookieAlert.hidden=true;
   } else {
       cookieAlert.textContent = "Please enable cookies.";
   }
