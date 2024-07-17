@@ -729,7 +729,7 @@
 }
 
 #cf-wrapper .cf-icon-exclamation-sign {
-  background: url(/api/assets/img/cfstyle/icon-exclamation.png) 50% no-repeat;
+  background: url(/ddos_guard/assets/img/icon-exclamation.png) 50% no-repeat;
   height: 54px;
   width: 54px;
   display: -moz-inline-stack;
@@ -920,7 +920,7 @@
 }
 
 #cf-wrapper #cf-error-details .cf-status-item+.cf-status-item:before {
-  background: url(/api/assets/img/cfstyle/icon-horizontal-arrow.png) no-repeat;
+  background: url(/ddos_guard/assets/img/icon-horizontal-arrow.png) no-repeat;
   content: "";
   display: block;
   left: 0;
@@ -1048,7 +1048,7 @@
 }
 
 #cf-wrapper #cf-error-details .cf-screenshot-container {
-  background: url(/api/assets/img/cfstyle/browser-bar.png) no-repeat #fff;
+  background: url(/ddos_guard/assets/img/browser-bar.png) no-repeat #fff;
   max-height: 400px;
   max-width: 100%;
   overflow: hidden;
@@ -1058,7 +1058,7 @@
 }
 
 #cf-wrapper #cf-error-details .cf-screenshot-container .cf-no-screenshot {
-  background: url(/api/assets/img/cfstyle/no-screenshot-warn.png) no-repeat;
+  background: url(/ddos_guard/assets/img//no-screenshot-warn.png) no-repeat;
   display: block;
   height: 158px;
   left: 25%;
@@ -1078,7 +1078,7 @@
 }
 
 #cf-wrapper #cf-error-details .cf-screenshot-container .cf-no-screenshot.error {
-  background: url(/api/assets/img/cfstyle/no-screenshot-error.png) no-repeat;
+  background: url(/ddos_guard/assets/img/no-screenshot-error.png) no-repeat;
   height: 175px
 }
 
@@ -1092,31 +1092,31 @@
 }
 
 #cf-wrapper .cf-icon-ok {
-  background: url(/api/assets/img/cfstyle/ok.png) no-repeat;
+  background: url(/ddos_guard/assets/img/ok.png) no-repeat;
   height: 48px;
   width: 48px
 }
 
 #cf-wrapper .cf-icon-error {
-  background: url(/api/assets/img/cfstyle/error.png) no-repeat;
+  background: url(/ddos_guard/assets/img/error.png) no-repeat;
   height: 48px;
   width: 48px
 }
 
 #cf-wrapper .cf-icon-browser {
-  background: url(/api/assets/img/cfstyle/browser.png) no-repeat;
+  background: url(/ddos_guard/assets/img/browser.png) no-repeat;
   height: 80px;
   width: 100px
 }
 
 #cf-wrapper .cf-icon-cloud {
-  background: url(/api/assets/img/cfstyle/cloud.png) no-repeat;
+  background: url(/ddos_guard/assets/img/cloud.png) no-repeat;
   height: 77px;
   width: 151px
 }
 
 #cf-wrapper .cf-icon-server {
-  background: url(/api/assets/img/cfstyle/server.png) no-repeat;
+  background: url(/ddos_guard/assets/img/server.png) no-repeat;
   height: 75px;
   width: 95px
 }
